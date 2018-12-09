@@ -11,7 +11,7 @@ sources:
   - type: git
     url: https://github.com/lpereira/hardinfo.git
     branch: master
-    commit: bd3b14dd05b0b7fadf26363cd1424a3e22f7be6a
+    commit: d1ef46fab73865986e6d3e320bd578dba7cf76f6
   # Source1
   - type: file
     path: hardinfo.appdata.xml
