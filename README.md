@@ -62,25 +62,25 @@ $ git submodule update
 ### Build
 
 ```
-$ flatpak-builder "build" "com.github.lpereira.hardinfo.yaml" --force-clean --install-deps-from="flathub"
+$ flatpak-builder "build" "com.github.lpereira.HardInfo.yaml" --force-clean --install-deps-from="flathub"
 ```
 
 ### Test
 
 ```
-$ flatpak-builder --run "build" "com.github.lpereira.hardinfo.yaml" "sh"
+$ flatpak-builder --run "build" "com.github.lpereira.HardInfo.yaml" "sh"
 ```
 
 ### Test run
 
 ```
-$ flatpak-builder --run "build" "com.github.lpereira.hardinfo.yaml" "hardinfo"
+$ flatpak-builder --run "build" "com.github.lpereira.HardInfo.yaml" "hardinfo"
 ```
 
 ### Install
 
 ```
-$ flatpak-builder --repo="repo" --force-clean "build" "com.github.lpereira.hardinfo.yaml"
+$ flatpak-builder --repo="repo" --force-clean "build" "com.github.lpereira.HardInfo.yaml"
 ```
 
 ```
@@ -88,19 +88,19 @@ $ flatpak --user remote-add --no-gpg-verify "hardinfo" "repo"
 ```
 
 ```
-$ flatpak --user install "hardinfo" "com.github.lpereira.hardinfo"
+$ flatpak --user install "hardinfo" "com.github.lpereira.HardInfo"
 ```
 
 ### Run
 
 ```
-$ flatpak run "com.github.lpereira.hardinfo"
+$ flatpak run "com.github.lpereira.HardInfo"
 ```
 
 ### Uninstall
 
 ```
-$ flatpak --user uninstall "com.github.lpereira.hardinfo"
+$ flatpak --user uninstall "com.github.lpereira.HardInfo"
 ```
 
 ```
